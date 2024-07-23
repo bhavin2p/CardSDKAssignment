@@ -50,6 +50,7 @@ public class AssignmentTest extends SeleniumCommonMethods {
         SeleniumCommonMethods.clickButtonUsingActions("//*[local-name()='svg' and @class='copyButtonIcon_CtfL']/*[local-name()='path']");
         SeleniumCommonMethods.storeAndPrintCopiedContent();
         SeleniumCommonMethods.clickButton("//button[contains(text(),'Clear Log')]");
+	System.out.println("Divya has added comment");
     }
 
     @DataProvider(name = "dataToPass")
